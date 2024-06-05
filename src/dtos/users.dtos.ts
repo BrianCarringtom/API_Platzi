@@ -6,7 +6,7 @@ import { PartialType } from '@nestjs/mapped-types';
 export class CreateUserDto {
   @IsString()
   @IsNotEmpty()
-  readonly usuario: string;
+  readonly Usuario: string;
 
   @IsString()
   @IsNotEmpty()
